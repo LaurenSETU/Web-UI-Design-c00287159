@@ -1,0 +1,57 @@
+body{
+background-color: #D2F1FF;
+background-image: url(assets/images/background.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+
+    text-decoration: none;
+        display: block;
+        padding: 15px 25px;
+        text-align: center;
+        background-color: rgb(204, 142, 17);
+        color: #0a0a0a;
+        margin: 0;
+}
+
+nav :hover{
+    background-color: rgb(130, 89, 12);
+    color: #ffffff;
+}
+
+#About, #Beginner, #Crops{
+background-color: rgb(255,255,255,0.5);
+padding: 10px;
+}
+
+#About{
+    background-color: rgb(255,255,255,0.7);
+}
+
+ul{
+    background-color: rgb(255,255,255,0.5);
+}
+
+#Crops{
+    background-color: rgb(255,255,255,0.6);
+}
+#rhubarb{
+    background-color: rgb(255,255,255,0.4);
+}
+#strawb{
+    background-color: rgb(255,255,255,0.4);
+}
