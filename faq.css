@@ -1,0 +1,57 @@
+body{
+    background-color: #D2F1FF;
+    background-image: url(assets/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    }
+    
+    h1{
+        text-align: center;
+        color: white;
+    }
+    
+    h2{
+        text-align: center;
+        color: white;
+    }
+    
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+    
+        text-decoration: none;
+            display: block;
+            padding: 15px 25px;
+            text-align: center;
+            background-color: rgb(204, 142, 17);
+            color: #0a0a0a;
+            margin: 0;
+    }
+    
+    nav :hover{
+        background-color: rgb(130, 89, 12);
+        color: #ffffff;
+    }
+
+    #submit{
+        background-color: rgb(255,255,255,0.7);
+    }
+    
+    #q_form{
+        background-color: rgb(255,255,255,0.7);
+    padding: 30px;
+    }
+    #email{
+        width: 20%; 
+    }
+
+    #question{
+        width: 80%; 
+        height: 100px; 
+        padding:10px;
+    }
+
+    #frequent{
+        background-color: rgb(255,255,255,0.7);
+        padding: 10px;
+    }
