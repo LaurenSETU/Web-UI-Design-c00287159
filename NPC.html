@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Stardew Valley Guide</title>
         <link rel="stylesheet" href="screen.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     </head>
     <body>
         <h1><img src="assets/images/Main_Logo.png"/> </h1>
@@ -17,8 +18,12 @@
         <section>
             <h2><Strong> Marriage Candidates</Strong></h2>
         </section>
-        <div id="npc_men">
+
+        <div id="npc_men">    
         <section class="bachelor">
+           
+            <button id="showBachelors">Show me the bachelors</button>
+
             <h3>
                <strong> Bachelors</strong> 
             </h3>
@@ -28,7 +33,17 @@
            <div>
             <img src="assets/images/Elliott.png"/> <p>Elliott</p>
            </div>
-            
+        
         </section>
     </div>
+
+    <script>
+        $(document).ready(function(){
+            $("#showBachelors").click(function(){
+                $("#npc_men").slideDown();
+            });
+        });
+        </script>
     </body>
+
+    
